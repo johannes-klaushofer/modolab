@@ -1,0 +1,17 @@
+node_modules
+templates/dist
+templates/src/assets/web/bower
+templates/src/assets/web/fonts/LOOP_icons.*
+.sass-cache
+
+htdocs/.htaccess
+htdocs/wp-config.php
+htdocs/wp-content/uploads/*
+htdocs/wp-content/themes/twentysixteen/*
+htdocs/wp-content/themes/modolab/fonts/*
+htdocs/wp-content/themes/modolab/img/*
+htdocs/wp-content/themes/modolab/js/*
+htdocs/wp-content/themes/modolab/other/*
+htdocs/wp-content/themes/modolab/css/*
+htdocs/wp-content/themes/modolab/acf-json/*
+htdocs/wp-content/cache/*
