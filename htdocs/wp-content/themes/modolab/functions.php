@@ -30,4 +30,11 @@
 		}
 	}
 	add_action('after_switch_theme', 'mytheme_setup_options');
+	
+	// remove editor
+	function remove_editor(){
+		remove_post_type_support('post', 'editor');
+		remove_post_type_support('page', 'editor');
+	}
+	add_action('admin_init', 'remove_editor');
 ?>

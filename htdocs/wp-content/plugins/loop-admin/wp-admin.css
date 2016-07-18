@@ -1,0 +1,159 @@
+* {
+	outline:none;
+}
+html, body {
+	font-family:Akkurat;
+}
+html {
+	overflow-y:scroll;
+}
+html.wp-toolbar {
+	padding-top:50px;
+}
+a:focus, a:focus .media-icon img {
+	box-shadow:none;
+}
+#wpcontent {
+	padding-left:30px;
+}
+#wpcontent, #wpfooter {
+	margin-left:270px;
+}
+.wrap {
+	margin:9px 30px 0 0;
+}
+#adminmenu {
+	margin:15px 0;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	width:270px;
+	background:#242730;
+}
+#adminmenu li.wp-menu-separator {
+	height:1px;
+	margin:15px 0;
+	border-top:1px solid #101216;
+	background:#30333c;
+}
+#adminmenu div.wp-menu-image {
+	margin:0 15px;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+	background-color:#3a3e49;
+	color:#fff;
+}
+#adminmenu li#collapse-menu:before {
+	content:"";
+	display:block;
+	height:1px;
+	width:100%;
+	border-top:1px solid #101216;
+	background:#30333c;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#collapse-button {
+	margin:10px 25px 10px 26px;
+}
+#adminmenu .awaiting-mod, #adminmenu .update-plugins {
+	margin-left:10px;
+}
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after, #adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+	display:none;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+	background:#3a3e49;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu {
+	background-color:#31343d;
+}
+#adminmenu .wp-has-current-submenu ul>li>a, .folded #adminmenu li.menu-top .wp-submenu>li>a {
+	padding:8px 10px 8px 66px;
+}
+#adminmenu .wp-submenu {
+	left:270px;
+	background:#3a3e49;
+	box-shadow:none;
+}
+#comment-link-box, #edit-slug-box {
+	padding-left:0;
+}
+
+/* adminbar */
+#wpadminbar {
+	height:50px;
+	padding:9px 17px;
+	box-sizing:border-box;
+}
+#wpadminbar:after {
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:-1px;
+	display:block;
+	width:270px;
+	height:1px;
+	background:#101216;
+	border-bottom:1px solid #30333c;
+}
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {
+	background-color:#3a3e49;
+}
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+	background-color:#3a3e49;
+	color:#fff;
+}
+#wpadminbar .quicklinks .menupop ul.ab-sub-secondary, #wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+	background-color:#3a3e49;
+}
+
+/* button */
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+	border-radius:0;
+}
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+	box-shadow:none;
+}
+.wp-core-ui .button-secondary:active, .wp-core-ui .button.active, .wp-core-ui .button.active:hover, .wp-core-ui .button:active {
+	box-shadow:none;
+	transform:none;
+}
+.wp-core-ui .button-link:focus, .wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus, .wp-core-ui .button:focus {
+	box-shadow:none;
+}
+.wrap .add-new-h2, .wrap .add-new-h2:active, .wrap .page-title-action, .wrap .page-title-action:active {
+	margin-left:10px;
+}
+
+/* filter */
+.tablenav .actions {
+	padding-top:0;
+}
+.tablenav {
+	margin:0;
+	padding:10px 0;
+}
+#posts-filter .wp-filter {
+	display:block;
+	overflow:hidden;
+}
+.wp-filter {
+	padding:0 18px;
+	box-shadow:none;
+}
+.wp-filter .view-switch {
+	padding:20px 0;
+}
+.wp-filter .search-form {
+	margin:18px 0;
+}
+
+/* input */
+input[type=text], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=search], select, textarea, input[type="text"]:focus, input[type="password"]:focus, input[type="checkbox"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="radio"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input[type="search"]:focus, select:focus, textarea:focus {
+	box-shadow:none;
+}
+
+/* typo */
+.postbox .inside h2, .wrap [class$=icon32]+h2, .wrap h1, .wrap>h2:first-child {
+	font-size:26px;
+}
